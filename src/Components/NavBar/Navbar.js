@@ -16,7 +16,7 @@ const Navbar = () => {
             <AppBar position="static">
                 <Toolbar>
                     <Typography variant="title" color="inherit">
-                        Dashboard
+                        Dashboard Title
                     </Typography>
                 </Toolbar>
             </AppBar>

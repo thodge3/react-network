@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Typography } from '@material-ui/core';
 
 
 const Highlight = styled.div`
@@ -16,21 +15,15 @@ const CenterDiv = styled.div`
     justify-content: center;
 `
 
-class Network  extends React.Component{
+class Plot extends React.Component{
 
     render(){
         return (
             <CenterDiv>
-                <Highlight>
-                    <Typography 
-                        color='primary'
-                    >
-                        NETWORK
-                    </Typography>
-                </Highlight>
+                <Highlight>PLOT</Highlight>
             </CenterDiv>  
         );
     }
 }
 
-export default Network;
+export default Plot;

@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import { Navbar, Network, Cards } from './Components';
+import { Navbar, Cards, TabsView } from './Components';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Cards />
-      <Network />
+      <TabsView />
     </div>
   );
 }
